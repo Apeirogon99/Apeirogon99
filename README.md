@@ -8,7 +8,10 @@
 <div>
   <!--Body-->
 
-  # PROJECT
+  <div align="center">
+  <h1> 프로젝트 </h1>
+  </div>
+
   ## MMORPG
   개발 기간 : 2023.01 ~ 2023.11 (10 개월) </br>
   개발 인원 : 서버 (1명), 클라이언트 (1명) </br>
@@ -30,5 +33,7 @@
              [[개발 일기]](https://apeirogon99.tistory.com/category/%5BSurvival%20Horizion%5D)
   
   [![Video Label](http://img.youtube.com/vi/444oGjuMZwc/0.jpg)](https://youtu.be/444oGjuMZwc)
+
+  # SKILL
   
 </div>
