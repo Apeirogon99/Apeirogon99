@@ -20,6 +20,7 @@
              [[개발 일기]](https://apeirogon99.tistory.com/category/%5BMMORPG%5D) </br>
   결과 영상 : </br>
   [![Video Label](http://img.youtube.com/vi/V_tvPMT1-Mk/0.jpg)](https://youtu.be/V_tvPMT1-Mk)
+  #### 구현 기술 : </br>
   
   ------
   ## 2D FPS
@@ -32,7 +33,8 @@
              [[개발 일기]](https://apeirogon99.tistory.com/category/%5BSurvival%20Horizion%5D) </br>
   결과 영상 : </br>
   [![Video Label](http://img.youtube.com/vi/444oGjuMZwc/0.jpg)](https://youtu.be/444oGjuMZwc)
-
+  #### 구현 기술 : </br>
+  
   ------
   <div align=center><h1>📚 STACKS</h1></div>
   
