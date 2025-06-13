@@ -20,7 +20,8 @@
              [[개발 일기]](https://apeirogon99.tistory.com/category/%5BMMORPG%5D)
 
   [![Video Label](http://img.youtube.com/vi/V_tvPMT1-Mk/0.jpg)](https://youtu.be/V_tvPMT1-Mk)
-
+  
+  ------
   ## 2D FPS
   개발 기간 : 2024.07 ~ 2025.01 (6개월) </br>
   개발 인원 : 기획 (1명), 서버 (2명), 클라이언트 (2명) </br>
@@ -32,6 +33,7 @@
   
   [![Video Label](http://img.youtube.com/vi/444oGjuMZwc/0.jpg)](https://youtu.be/444oGjuMZwc)
 
+  ------
   <div align=center><h1>📚 STACKS</h1></div>
   
   <div align=center> 
