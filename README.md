@@ -1,22 +1,28 @@
-# Apeirogon99
+<div>
 
-### Used : C, C++ & Unreal Engine
+  <!--Header-->
+  ![header](https://capsule-render.vercel.app/api?type=Waving&color=timeGradient&height=300&section=header&text=Apeirogon99&fontSize=90)
+  
+</div>
 
----
+<div>
+  <!--Body-->
 
-<!--[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=apeirogon99)](https://solved.ac/apeirogon99/)-->
+  # PROJECT
+  ## MMORPG
+  개발 기간 : 2023.01 ~ 2023.11 (10 개월) </br>
+  개발 인원 : 서버 (1명), 클라이언트 (1명) </br>
+  개발 목표 : IOCP 네트워크 처리, 데이터베이스 연동 기반 MMORPG 서버 프레임워크 및 콘텐츠 개발 </br>
+  기술 스택 : C++, MS-SQL, Unreal Engine4 </br>
 
-<!--
-**Apeirogon99/Apeirogon99** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+  [![Video Label](http://img.youtube.com/vi/V_tvPMT1-Mk/0.jpg)](https://youtu.be/V_tvPMT1-Mk)
 
-Here are some ideas to get you started:
+  ## 2D FPS
+  개발 기간 : 2024.07 ~ 2025.01 (6개월) </br>
+  개발 인원 : 기획 (1명), 서버 (2명), 클라이언트 (2명) </br>
+  개발 목표 : .Net과 Docker를 활용하여 게임 매칭 및 컨테이너 기반 게임 세션 관리하기 </br>
+  기술 스택 : C#, .NET, Unity, Docker, Redis, MySQL </br>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+  [![Video Label](http://img.youtube.com/vi/444oGjuMZwc/0.jpg)](https://youtu.be/444oGjuMZwc)
+  
+</div>
