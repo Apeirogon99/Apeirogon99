@@ -20,7 +20,12 @@
              [[개발 일기]](https://apeirogon99.tistory.com/category/%5BMMORPG%5D) </br>
   결과 영상 : </br>
   [![Video Label](http://img.youtube.com/vi/V_tvPMT1-Mk/0.jpg)](https://youtu.be/V_tvPMT1-Mk)
-  #### 구현 기술 : </br>
+  ### 구현 요약 : </br>
+  #### System
+
+  #### Tool
+  
+  #### Content
   
   ------
   ## 2D FPS
@@ -33,7 +38,15 @@
              [[개발 일기]](https://apeirogon99.tistory.com/category/%5BSurvival%20Horizion%5D) </br>
   결과 영상 : </br>
   [![Video Label](http://img.youtube.com/vi/444oGjuMZwc/0.jpg)](https://youtu.be/444oGjuMZwc)
-  #### 구현 기술 : </br>
+  ### 구현 요약 : </br>
+  #### System
+  - [게임 서버 사이클](https://github.com/sulbos-GP/GunShooterOnline/tree/main/GSO_WebServer) : 클라이언트가 매칭을 거쳐 게임 서버에 접속되어 입장되고 종료되는 라이프 사이클
+  - [매치메이킹](https://github.com/sulbos-GP/GunShooterOnline/tree/main/GSO_WebServer/Matchmaker) : ASP.NET 백그라운드 서비스로 Redis SortedQueue를 활용한 매칭큐와 MMR 매치매이킹 시스템 구현 
+  - [게임 서버 관리](https://github.com/sulbos-GP/GunShooterOnline/tree/main/GSO_WebServer/Matchmaker) : ASP.NET + Docker를 통한 게임 세션 관리
+  #### Tool
+  - [DB 코드 제너레이터](https://github.com/Apeirogon99/SchemaStructor) : MySQL 데이터베이스 스키마를 분석하여 C# 모델 클래스, Enum을 자동으로 생성해주는 코드 제너레이터
+  #### Content
+  - [티켓]() : 
   
   ------
   <div align=center><h1>📚 STACKS</h1></div>
