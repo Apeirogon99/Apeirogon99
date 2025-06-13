@@ -43,7 +43,7 @@
   - [게임 서버 사이클](https://github.com/sulbos-GP/GunShooterOnline/tree/main/GSO_WebServer) : 클라이언트가 매칭을 거쳐 게임 서버에 접속되어 입장되고 종료되는 라이프 사이클
   - [매치메이킹](https://github.com/sulbos-GP/GunShooterOnline/tree/main/GSO_WebServer/Matchmaker) : ASP.NET 백그라운드 서비스로 Redis SortedQueue를 활용한 매칭큐와 MMR 매치매이킹 시스템 구현 
   - [게임 서버 관리](https://github.com/sulbos-GP/GunShooterOnline/tree/main/GSO_WebServer/GameServerManager) : ASP.NET + Docker를 통한 게임 세션 관리
-  - [인증및 관리](https://github.com/sulbos-GP/GunShooterOnline/tree/main/GSO_WebServer/GsoWebServer) : 구글 인증
+  - [유저 인증 및 관리](https://github.com/sulbos-GP/GunShooterOnline/tree/main/GSO_WebServer/GsoWebServer) : 구글 인증을 통해 유저의 토큰을 관리하고 Redis에 임시 저장하여 다음 요청에 활용
   #### Tool
   - [DB 코드 제너레이터](https://github.com/Apeirogon99/SchemaStructor) : MySQL 데이터베이스 스키마를 분석하여 C# 모델 클래스, Enum을 자동으로 생성해주는 코드 제너레이터
   #### Content
