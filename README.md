@@ -66,18 +66,18 @@
   [![Video Label](http://img.youtube.com/vi/444oGjuMZwc/0.jpg)](https://youtu.be/444oGjuMZwc)
   ### 구현 요약 : </br>
   #### System
-  - [게임 서버 사이클](https://github.com/sulbos-GP/GunShooterOnline/tree/main/GSO_WebServer) : 클라이언트가 매칭을 거쳐 게임 서버에 접속되어 입장되고 종료되는 라이프 사이클
-  - [매치메이킹](https://github.com/sulbos-GP/GunShooterOnline/tree/main/GSO_WebServer/Matchmaker) : ASP.NET 백그라운드 서비스로 Redis Sorted Set을 활용한 매칭큐와 MMR 매치매이킹 시스템 구현 
-  - [게임 서버 관리](https://github.com/sulbos-GP/GunShooterOnline/tree/main/GSO_WebServer/GameServerManager) : 매칭 요청을 받아 ASP.NET으로 Redis에 등록된 컨테이너 상태를 받아 Docker에서 실행되고 있는 게임 방과 연결해주는 매니저
-  - [유저 인증 및 관리](https://github.com/sulbos-GP/GunShooterOnline/tree/main/GSO_WebServer/GsoWebServer) : 구글 인증을 통해 유저의 토큰을 관리하고 Redis에 임시 저장하여 다음 요청에 활용
+  - [게임 서버 사이클](https://github.com/sulbos-GP/GunShooterOnline/tree/main/GSO_WebServer) : 실시간 매칭과 동적 게임 세션 배정을 통한 게임 입장 사이클
+  - [매치메이킹](https://github.com/sulbos-GP/GunShooterOnline/tree/main/GSO_WebServer/Matchmaker) : Redis 큐로 플레이어 대기열 관리, ASP.NET 백그라운드 서비스로 실시간 MMR 매칭 처리
+  - [게임 서버 관리](https://github.com/sulbos-GP/GunShooterOnline/tree/main/GSO_WebServer/GameServerManager) : ASP.NET으로 Docker를 관리하여 동적 게임 세션 관리 및 입장 처리
+  - [유저 인증 및 관리](https://github.com/sulbos-GP/GunShooterOnline/tree/main/GSO_WebServer/GsoWebServer) : 구글 인증을 통해 유저의 토큰을 Redis에서 관리, 요청 시 유효 토큰인지 확인 
   #### Tool
-  - [DB 코드 제너레이터](https://github.com/Apeirogon99/SchemaStructor) : MySQL 데이터베이스 스키마를 분석하여 C# 모델 클래스, Enum을 자동으로 생성해주는 코드 제너레이터
+  - [DB 코드 제너레이터](https://github.com/Apeirogon99/SchemaStructor) : MySQL 스키마 분석을 통한 C# 클래스, Enum 자동 생성
   #### Content
   - [일일 미션]() : 
   - [레벨 보상]() :
   - [티켓]() :
-  - [인벤토리]() : 
-  
+  - [인벤토리]() :
+    
   ------
   <div align=center><h1>📚 STACKS</h1></div>
   
