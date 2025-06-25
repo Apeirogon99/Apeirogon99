@@ -10,10 +10,10 @@
 
   <div align="center"> <h1> 📁 PROJECTS </h1> </div>
 
-  ## MMORPG
+  ## Dark Crown : Return of the Lich (논 타겟팅 액션 MMORPG)
   개발 기간 : 2023.01 ~ 2023.11 (10 개월) </br>
   개발 인원 : 서버 (1명), 클라이언트 (1명) </br>
-  개발 목표 : IOCP 네트워크 처리, 데이터베이스 연동 기반 MMORPG 서버 프레임워크 및 콘텐츠 개발 </br>
+  개발 목표 : IOCP + ADO를 이용한 I/O처리 서버 프레임워크 구현, 논 타겟팅 액션을 위한 시스템 및 MMORPG 콘텐츠 제작 </br>
   기술 스택 : C++, MS-SQL, Unreal Engine4 </br>
   관련 링크 : [[게임서버 엔진]](https://github.com/Apeirogon99/ApeirogonServerEngine), 
              [[게임서버 콘텐츠]](https://github.com/Apeirogon99/Project_LD_Server),
@@ -54,10 +54,10 @@
  
   
   ------
-  ## 2D FPS
+  ## Survival Horizon (2D 익스트렉션 슈터)
   개발 기간 : 2024.07 ~ 2025.01 (6개월) </br>
   개발 인원 : 기획 (1명), 서버 (2명), 클라이언트 (2명) </br>
-  개발 목표 : .Net과 Docker를 활용하여 게임 매칭 및 컨테이너 기반 게임 세션 관리하기 </br>
+  개발 목표 : 실시간 매칭과 동적 게임 세션 배정을 통한 입장 구현, 아웃 게임 및 루팅, 아이템 관련 콘텐츠 제작 </br>
   기술 스택 : C#, .NET, Unity, Docker, Redis, MySQL </br>
   관련 링크 : [[아웃게임 서버]](https://github.com/sulbos-GP/GunShooterOnline/tree/main/GSO_WebServer), 
              [[DB 관리 자동화]](https://github.com/Apeirogon99/SchemaStructor),
