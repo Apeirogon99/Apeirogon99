@@ -36,24 +36,24 @@
   - 최적화
     - [가시거리]() : 
   #### Tool
-  - [위젯 관리]()
+  - [위젯 관리](https://github.com/Apeirogon99/Project_LD/tree/master/Source/Project_LD/Public/Widget) : 언리얼 엔진의 HUD를 이용하여 위젯 관리
   #### Content
   - 전투
-    - [스킬]() : 
-    - [버프/디버프]() : 
+    - [스킬](https://github.com/Apeirogon99/Project_LD_Server) : 설치형, 차징, 대쉬, 패링 스킬 구현
+    - [패턴](https://github.com/Apeirogon99/Project_LD_Server) : 3페이즈 보스의 스킬 및 다크 나이트 애니메이션 구현
+    - [버프/디버프](https://github.com/Apeirogon99/Project_LD_Server) : 캐릭터의 능력치 버프/디버프와 시야를 가리는 블라인드 구현
   - SNS
-    - [채팅]() : 
-    - [파티]() : 
-    - [친구]() : 
+    - [채팅](https://github.com/Apeirogon99/Project_LD_Server) : 주변에 있다면 채팅을 볼 수 있는 전체 채팅
+    - [파티](https://github.com/Apeirogon99/Project_LD_Server) : 파티를 추가, 추방, 위임하고 던전을 같이 참여 가능
+    - [친구](https://github.com/Apeirogon99/Project_LD_Server) : 친구를 추가하여 온라인 상태, 오프라인 상태 확인 가능
   - 캐릭터
-    - [캐릭터 커스텀]() : 
+    - [캐릭터 커스텀](https://github.com/Apeirogon99/Project_LD_Server) : 캐릭터의 외형을 변경하고 저장 및 로드할 수 있는 커스터마이징 시스템
   - 아이템
-    - [수집]() : 
-    - [장비]() : 
-    - [인벤토리]() : 
+    - [루팅](https://github.com/Apeirogon99/Project_LD_Server) : 등급별 아이템이 존재하고 줍고 버릴 수 있는 루팅 시스템
+    - [장비](https://github.com/Apeirogon99/Project_LD_Server) : 장비에 따라 캐릭터의 스탯이 증가하고 시각적 외형 변경
+    - [인벤토리](https://github.com/Apeirogon99/Project_LD_Server) : 그리드 형식의 인벤토리 처리
   - 계정
-    - [회원가입 및 인증]() : 
-    - [로그인]() : 
+    - [회원가입 및 인증](https://github.com/Apeirogon99/Project_LD_Server) : 회원가입하고 이메일로 인증해야 최종적으로 가입되는 시스템
  
   ------
   ## Survival Horizon (2D 익스트렉션 슈터)
