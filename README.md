@@ -8,7 +8,7 @@
 <div>
   <!--Body-->
 
-  <div align="center"> <h1> 📁 PROJECTS </h1> </div>
+  <div align="center"> <h1> 📁 프로젝트 </h1> </div>
 
   ## Dark Crown : Return of the Lich (논 타겟팅 액션 MMORPG)
   개발 기간 : 2023.01 ~ 2023.11 (10 개월) </br>
@@ -81,9 +81,16 @@
     - [티켓]() :
   - 인 게임
     - [인벤토리]() :
-    
+
+  -----
+  <div align=center><h1>🚀 이런 개발자입니다</h1></div>
+  
+  <div align=center> 
+      쾌적한 서버 환경을 통해 더 많은 유저분들에게 즐거운 경험을 주고싶은 게임 서버 개발자입니다.
+  </div>
+  
   ------
-  <div align=center><h1>📚 STACKS</h1></div>
+  <div align=center><h1>📚 기술 스택</h1></div>
   
   <div align=center> 
     <img src="https://img.shields.io/badge/c-A8B9CC?style=for-the-badge&logo=c&logoColor=white"> 
