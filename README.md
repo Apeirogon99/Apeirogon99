@@ -27,14 +27,14 @@
     - [네트워크 처리](https://github.com/Apeirogon99/ApeirogonServerEngine) : IOCP모델을 통해 수신된 데이터 잡 큐에 저장
     - [데이터베이스 처리](https://github.com/Apeirogon99/ApeirogonServerEngine) : ADO를 통해 MS-SQL 저장프로시저 실행
   - 전투 시스템
-    - [몬스터 인공지능]() : FSM을 이용한 단순한 인공지능 적용
-    - [충돌 감지]() : KD-Tree를 이용하여 충돌 감지
-    - [기본/패턴 공격]() : Shot -> Target -> Over 순서 적용
+    - [몬스터 인공지능](https://github.com/Apeirogon99/Project_LD_Server) : FSM을 이용한 단순한 인공지능 적용
+    - [충돌 감지](https://github.com/Apeirogon99/Project_LD_Server) : KD-Tree를 이용하여 충돌 감지
+    - [기본/패턴 공격](https://github.com/Apeirogon99/Project_LD_Server) : Shot -> Target -> Over 순서 적용
   - 동기화
-    - [이동 동기화]() : 
-    - [애니메이션 동기화]() : 
+    - [이동 동기화](https://github.com/Apeirogon99/Project_LD_Server) : 데드레커닝을 이용한 동기화
+    - [애니메이션 동기화](https://github.com/Apeirogon99/Project_LD_Server) : 애니메이션 배속 또는 생략
   - 최적화
-    - [가시거리]() : 
+    - [가시거리](https://github.com/Apeirogon99/Project_LD_Server) : 대역폭을 줄이기 위한 가시거리 제작 및 활용
   #### Tool
   - [위젯 관리](https://github.com/Apeirogon99/Project_LD/tree/master/Source/Project_LD/Public/Widget) : 언리얼 엔진의 HUD를 이용하여 위젯 관리
   #### Content
