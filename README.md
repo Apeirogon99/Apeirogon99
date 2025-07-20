@@ -75,11 +75,11 @@
   - [DB 코드 제너레이터](https://github.com/Apeirogon99/SchemaStructor) : MySQL 스키마 분석을 통한 C# 클래스, Enum 자동 생성
   #### Content
   - 아웃 게임
-    - [일일 임무](https://github.com/sulbos-GP/GunShooterOnline/blob/main/GSO_WebServer/README.md#%EC%9D%BC%EC%9D%BC-%EB%AF%B8%EC%85%98) : 하루마다 초기화되는 임무를 인 게임에서 업데이트하고 완료했다면 보상을 받을 수 있다
-    - [레벨 보상](https://github.com/sulbos-GP/GunShooterOnline/blob/main/GSO_WebServer/README.md#%EB%A0%88%EB%B2%A8-%EB%B3%B4%EC%83%81) : 게임이 종료되면 퍼포먼스에 의한 경험치가 증가되고 레벨에 따른 보상을 얻을 수 있다
-    - [티켓](https://github.com/sulbos-GP/GunShooterOnline/blob/main/GSO_WebServer/README.md#%ED%8B%B0%EC%BC%93) :게임에 들어가기 위해 필요한 티켓이 최대치 보다 작을 때 일정시간 마다 얻을 수 있다
+    - [일일 임무](https://github.com/sulbos-GP/GunShooterOnline/blob/main/GSO_WebServer/README.md#일일-미션) : 하루마다 초기화되는 임무를 인 게임에서 업데이트하고 완료했다면 보상을 받을 수 있다
+    - [레벨 보상](https://github.com/sulbos-GP/GunShooterOnline/blob/main/GSO_WebServer/README.md#레벨-보상) : 게임이 종료되면 퍼포먼스에 의한 경험치가 증가되고 레벨에 따른 보상을 얻을 수 있다
+    - [티켓](https://github.com/sulbos-GP/GunShooterOnline/blob/main/GSO_WebServer/README.md#티켓) :게임에 들어가기 위해 필요한 티켓이 최대치 보다 작을 때 일정시간 마다 얻을 수 있다
   - 인 게임
-    - [인벤토리](https://github.com/sulbos-GP/GunShooterOnline/blob/main/GSO_WebServer/README.md#%EC%9D%B8%EB%B2%A4%ED%86%A0%EB%A6%AC) : 그리드 방식의 인벤토리
+    - [인벤토리](https://github.com/sulbos-GP/GunShooterOnline/blob/main/GSO_WebServer/README.md#인벤토리) : 그리드 방식의 인벤토리
 
   -----
   <div align=center><h1>🚀 이런 개발자입니다</h1></div>
