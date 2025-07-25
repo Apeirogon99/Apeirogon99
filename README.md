@@ -35,7 +35,8 @@
     - [기본/패턴 공격](https://github.com/Apeirogon99/Project_LD_Server) : Shot -> Target -> Over 순서 적용
   - [이동 동기화](https://github.com/Apeirogon99/Project_LD_Server) : 데드레커닝을 이용한 동기화
     - [데드레커닝 개선](https://github.com/Apeirogon99/MovementSync) : 데드레커닝 방향전환으로 인한 위치 오차를 줄이기 위한 동적 동기화 적용
-  - [가시거리](https://github.com/Apeirogon99/Project_LD_Server) : 대역폭을 줄이기 위한 가시거리 제작 및 활용
+  - [가시거리](https://github.com/Apeirogon99/Project_LD_Server) : 트래픽을 줄이기 위한 가시거리 제작 및 활용
+    - [가시거리 개선](https://github.com/Apeirogon99/AreaOfInterest) : 트래픽 스파이크 개선하기 위한 가시거리 분할 및 점차적 데이터 전송 적용
   #### Tool
   - [위젯 관리](https://github.com/Apeirogon99/Project_LD/tree/master/Source/Project_LD/Public/Widget) : 언리얼 엔진의 HUD를 이용하여 위젯 관리
   #### Content
