@@ -30,33 +30,66 @@
     - [네트워크 처리](https://github.com/Apeirogon99/ApeirogonServerEngine) : IOCP모델을 통해 수신된 데이터 잡 큐에 저장
     - [데이터베이스 처리](https://github.com/Apeirogon99/ApeirogonServerEngine) : ADO를 통해 MS-SQL 저장프로시저 실행
   - 전투 시스템
-    - [몬스터 인공지능](https://github.com/Apeirogon99/Project_LD_Server) : FSM을 이용한 단순한 인공지능 적용
-    - [충돌 감지](https://github.com/Apeirogon99/Project_LD_Server) : KD-Tree를 이용하여 충돌 감지
+    - [몬스터 인공지능](https://github.com/Apeirogon99/Project_LD_Server/README.md#몬스터-인공지능) : FSM을 이용한 단순한 인공지능 적용
+    - [충돌 감지](https://github.com/Apeirogon99/Project_LD_Server/README.md#충돌-감지div>
+
+  <!--Header-->
+  ![header](https://capsule-render.vercel.app/api?type=Waving&color=timeGradient&height=300&section=header&text=Apeirogon99&fontSize=90)
+  
+</div>
+
+<div>
+  <!--Body-->
+
+  <div align="center"> <h1> 📁 프로젝트 </h1> </div>
+
+  ## Dark Crown : Return of the Lich (논 타겟팅 액션 MMORPG)
+  개발 기간 : 2023.01 ~ 2023.11 (10 개월) </br>
+  개발 인원 : 서버 (1명), 클라이언트 (1명) </br>
+  개발 목표 : IOCP + ADO를 이용한 I/O처리 서버 프레임워크 구현, 논 타겟팅 액션을 위한 시스템 및 MMORPG 콘텐츠 제작 </br>
+  기술 스택 : C++, MS-SQL, Unreal Engine4 </br>
+  관련 링크 : [[게임서버 엔진]](https://github.com/Apeirogon99/ApeirogonServerEngine), 
+             [[게임서버 콘텐츠]](https://github.com/Apeirogon99/Project_LD_Server),
+             [[충돌 테스트]](https://github.com/Apeirogon99/CollisionDetection),
+             [[이동 동기화]](https://github.com/Apeirogon99/MovementSync),
+             [[가시거리]](https://github.com/Apeirogon99/AreaOfInterest),
+             [[개발 일기]](https://apeirogon99.tistory.com/category/%5BMMORPG%5D) </br>
+  결과 영상 : (아래 영상을 클릭하면 유튜브에서 재생됩니다) </br>
+  [![Video Label](http://img.youtube.com/vi/V_tvPMT1-Mk/0.jpg)](https://youtu.be/V_tvPMT1-Mk)
+  ### 구현 요약 : </br>
+  #### System
+  - [서버 처리 과정](https://github.com/Apeirogon99/ApeirogonServerEngine/README.md#서버-처리-과정) : 네트워크 + 메인 로직 + 데이터베이스를 처리하는 서버 처리 과정
+    - [메인로직 처리](https://github.com/Apeirogon99/ApeirogonServerEngine/README.md#메인로직-처리) : 네트워크/DB 큐 처리, 월드 상태 업데이트
+    - [네트워크 처리](https://github.com/Apeirogon99/ApeirogonServerEngine/README.md#네트워크-처리) : IOCP모델을 통해 수신된 데이터 잡 큐에 저장
+    - [데이터베이스 처리](https://github.com/Apeirogon99/ApeirogonServerEngine/README.md#데이터베이스-처리) : ADO를 통해 MS-SQL 저장프로시저 실행
+  - 전투 시스템
+    - [몬스터 인공지능](https://github.com/Apeirogon99/Project_LD_Server/README.md#몬스터-인공지능) : FSM을 이용한 단순한 인공지능 적용
+    - [충돌 감지](https://github.com/Apeirogon99/Project_LD_Server/README.md#충돌-감지) : KD-Tree를 이용하여 충돌 감지
       - [충돌 테스트](https://github.com/Apeirogon99/CollisionDetection) : Array, Quad-Tree, KD-Tree 비교 및 분석
-    - [기본/패턴 공격](https://github.com/Apeirogon99/Project_LD_Server) : Shot -> Target -> Over 순서 적용
-  - [이동 동기화](https://github.com/Apeirogon99/Project_LD_Server) : 데드레커닝을 이용한 동기화
+    - [공격 방식](https://github.com/Apeirogon99/Project_LD_Server/README.md#공격-방식) : Shot -> Target -> Over 통일된 공격 순서 적용
+  - [이동 동기화](https://github.com/Apeirogon99/Project_LD_Server/README.md#이동-동기화) : 데드레커닝을 이용한 동기화
     - [데드레커닝 개선](https://github.com/Apeirogon99/MovementSync) : 데드레커닝 방향전환으로 인한 위치 오차를 줄이기 위한 동적 동기화 적용
-  - [가시거리](https://github.com/Apeirogon99/Project_LD_Server) : 트래픽을 줄이기 위한 가시거리 제작 및 활용
+  - [가시거리](https://github.com/Apeirogon99/Project_LD_Server/README.md#가시-거리) : 트래픽을 줄이기 위한 가시거리 제작 및 활용
     - [가시거리 개선](https://github.com/Apeirogon99/AreaOfInterest) : 플레이어 시야기준 가시영역을 나누어 정보 및 주기를 나눠 트래픽 감소 적용
   #### Tool
   - [위젯 관리](https://github.com/Apeirogon99/Project_LD/tree/master/Source/Project_LD/Public/Widget) : 언리얼 엔진의 HUD를 이용하여 위젯 관리
   #### Content
   - 전투
-    - [스킬](https://github.com/Apeirogon99/Project_LD_Server) : 설치형, 차징, 대쉬, 패링 스킬 구현
-    - [패턴](https://github.com/Apeirogon99/Project_LD_Server) : 3페이즈 보스의 스킬 및 다크 나이트 애니메이션 구현
-    - [버프/디버프](https://github.com/Apeirogon99/Project_LD_Server) : 캐릭터의 능력치 버프/디버프와 시야를 가리는 블라인드 구현
+    - [스킬](https://github.com/Apeirogon99/Project_LD_Server/README.md#스킬) : 설치형, 차징, 대쉬, 패링 스킬 구현
+    - [패턴](https://github.com/Apeirogon99/Project_LD_Server/README.md#패턴) : 3페이즈 보스의 스킬 및 다크 나이트 애니메이션 구현
+    - [버프/디버프](https://github.com/Apeirogon99/Project_LD_Server/README.md#버프-디버프) : 캐릭터의 능력치 버프/디버프와 시야를 가리는 블라인드 구현
   - SNS
-    - [채팅](https://github.com/Apeirogon99/Project_LD_Server) : 주변에 있다면 채팅을 볼 수 있는 전체 채팅
-    - [파티](https://github.com/Apeirogon99/Project_LD_Server) : 파티를 추가, 추방, 위임하고 던전을 같이 참여 가능
-    - [친구](https://github.com/Apeirogon99/Project_LD_Server) : 친구를 추가하여 온라인 상태, 오프라인 상태 확인 가능
+    - [채팅](https://github.com/Apeirogon99/Project_LD_Server/README.md#채팅) : 주변에 있다면 채팅을 볼 수 있는 전체 채팅
+    - [파티](https://github.com/Apeirogon99/Project_LD_Server/README.md#파티) : 파티를 추가, 추방, 위임하고 던전을 같이 참여 가능
+    - [친구](https://github.com/Apeirogon99/Project_LD_Server/README.md#친구) : 친구를 추가하여 온라인 상태, 오프라인 상태 확인 가능
   - 캐릭터
-    - [캐릭터 커스텀](https://github.com/Apeirogon99/Project_LD_Server) : 캐릭터의 외형을 변경하고 저장 및 로드할 수 있는 커스터마이징 시스템
+    - [캐릭터 커스텀](https://github.com/Apeirogon99/Project_LD_Server/README.md#캐릭터-커스텀) : 캐릭터의 외형을 변경하고 저장 및 로드할 수 있는 커스터마이징 시스템
   - 아이템
-    - [루팅](https://github.com/Apeirogon99/Project_LD_Server) : 등급별 아이템이 존재하고 줍고 버릴 수 있는 루팅 시스템
-    - [장비](https://github.com/Apeirogon99/Project_LD_Server) : 장비에 따라 캐릭터의 스탯이 증가하고 시각적 외형 변경
-    - [인벤토리](https://github.com/Apeirogon99/Project_LD_Server) : 그리드 형식의 인벤토리 처리
+    - [루팅](https://github.com/Apeirogon99/Project_LD_Server/README.md#루팅) : 등급별 아이템이 존재하고 줍고 버릴 수 있는 루팅 시스템
+    - [장비](https://github.com/Apeirogon99/Project_LD_Server/README.md#장비) : 장비에 따라 캐릭터의 스탯이 증가하고 시각적 외형 변경
+    - [인벤토리](https://github.com/Apeirogon99/Project_LD_Server/README.md#인벤토리) : 그리드 형식의 인벤토리 처리
   - 계정
-    - [회원가입 및 인증](https://github.com/Apeirogon99/Project_LD_Server) : 회원가입하고 이메일로 인증해야 최종적으로 가입되는 시스템
+    - [회원가입 및 인증](https://github.com/Apeirogon99/Project_LD_Server/README.md#회원가입-및-인증) : 회원가입하고 이메일로 인증해야 최종적으로 가입되는 시스템
  
   ------
   ## Survival Horizon (2D 익스트렉션 슈터)
