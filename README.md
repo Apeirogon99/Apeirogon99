@@ -1,45 +1,9 @@
 <div>
-
+  
   <!--Header-->
   ![header](https://capsule-render.vercel.app/api?type=Waving&color=timeGradient&height=300&section=header&text=Apeirogon99&fontSize=90)
   
 </div>
-
-<div>
-  <!--Body-->
-
-  <div align="center"> <h1> 📁 프로젝트 </h1> </div>
-
-  ## Dark Crown : Return of the Lich (논 타겟팅 액션 MMORPG)
-  개발 기간 : 2023.01 ~ 2023.11 (10 개월) </br>
-  개발 인원 : 서버 (1명), 클라이언트 (1명) </br>
-  개발 목표 : IOCP + ADO를 이용한 I/O처리 서버 프레임워크 구현, 논 타겟팅 액션을 위한 시스템 및 MMORPG 콘텐츠 제작 </br>
-  기술 스택 : C++, MS-SQL, Unreal Engine4 </br>
-  관련 링크 : [[게임서버 엔진]](https://github.com/Apeirogon99/ApeirogonServerEngine), 
-             [[게임서버 콘텐츠]](https://github.com/Apeirogon99/Project_LD_Server),
-             [[충돌 테스트]](https://github.com/Apeirogon99/CollisionDetection),
-             [[이동 동기화]](https://github.com/Apeirogon99/MovementSync),
-             [[가시거리]](https://github.com/Apeirogon99/AreaOfInterest),
-             [[개발 일기]](https://apeirogon99.tistory.com/category/%5BMMORPG%5D) </br>
-  결과 영상 : (아래 영상을 클릭하면 유튜브에서 재생됩니다) </br>
-  [![Video Label](http://img.youtube.com/vi/V_tvPMT1-Mk/0.jpg)](https://youtu.be/V_tvPMT1-Mk)
-  ### 구현 요약 : </br>
-  #### System
-  - [서버 처리 과정](https://github.com/Apeirogon99/ApeirogonServerEngine) : 네트워크 + 메인 로직 + 데이터베이스를 처리하는 서버 처리 과정
-    - [메인로직 처리](https://github.com/Apeirogon99/ApeirogonServerEngine) : 네트워크/DB 큐 처리, 월드 상태 업데이트
-    - [네트워크 처리](https://github.com/Apeirogon99/ApeirogonServerEngine) : IOCP모델을 통해 수신된 데이터 잡 큐에 저장
-    - [데이터베이스 처리](https://github.com/Apeirogon99/ApeirogonServerEngine) : ADO를 통해 MS-SQL 저장프로시저 실행
-  - 전투 시스템
-    - [몬스터 인공지능](https://github.com/Apeirogon99/Project_LD_Server/README.md#몬스터-인공지능) : FSM을 이용한 단순한 인공지능 적용
-    - [충돌 감지](https://github.com/Apeirogon99/Project_LD_Server/README.md#충돌-감지div>
-
-  <!--Header-->
-  ![header](https://capsule-render.vercel.app/api?type=Waving&color=timeGradient&height=300&section=header&text=Apeirogon99&fontSize=90)
-  
-</div>
-
-<div>
-  <!--Body-->
 
   <div align="center"> <h1> 📁 프로젝트 </h1> </div>
 
