@@ -33,7 +33,7 @@
     - [공격 방식](https://github.com/Apeirogon99/Project_LD_Server/blob/master/README.md#공격-방식) : Shot -> Target -> Over 통일된 공격 순서 적용
   - [이동 동기화](https://github.com/Apeirogon99/Project_LD_Server/blob/master/README.md#이동-동기화) : 데드레커닝을 이용한 동기화
     - [데드레커닝 개선](https://github.com/Apeirogon99/MovementSync) : 데드레커닝 방향전환으로 인한 위치 오차를 줄이기 위한 동적 동기화 적용
-  - [가시거리](https://github.com/Apeirogon99/Project_LD_Server/blob/master/README.md#가시-거리) : 트래픽을 줄이기 위한 가시거리 제작 및 활용
+  - [가시거리](https://github.com/Apeirogon99/Project_LD_Server/blob/master/README.md#가시거리) : 트래픽을 줄이기 위한 가시거리 제작 및 활용
     - [가시거리 개선](https://github.com/Apeirogon99/AreaOfInterest) : 플레이어 시야기준 가시영역을 나누어 정보 및 주기를 나눠 트래픽 감소 적용
   #### Tool
   - [위젯 관리](https://github.com/Apeirogon99/Project_LD/tree/master/Source/Project_LD/Public/Widget) : 언리얼 엔진의 HUD를 이용하여 위젯 관리
