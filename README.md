@@ -26,10 +26,10 @@
 
   <div align="center"> <h1> 📁 프로젝트 </h1> </div>
   
-1. [Survival Horizon (2D 익스트렉션 슈터)](##-Survival-Horizon-(2D-익스트렉션-슈터)) - 2024.07 ~ 2025.01 (6개월)  </br>
-2. [Dark Crown : Return of the Lich (논 타겟팅 액션 MMORPG)](##-Dark-Crown-:-Return-of-the-Lich-(논-타겟팅-액션-MMORPG)) - 2023.01 ~ 2023.11 (10 개월)  </br>
+1. [Survival Horizon (2D 익스트렉션 슈터)](#Survival-Horizon-(2D-익스트렉션-슈터)) - 2024.07 ~ 2025.01 (6개월)  </br>
+2. [Dark Crown : Return of the Lich (논 타겟팅 액션 MMORPG)](#Dark-Crown-:-Return-of-the-Lich-(논-타겟팅-액션-MMORPG)) - 2023.01 ~ 2023.11 (10 개월)  </br>
   
- ## Survival Horizon (2D 익스트렉션 슈터)
+ # Survival Horizon (2D 익스트렉션 슈터)
   개발 기간 : 2024.07 ~ 2025.01 (6개월) </br>
   개발 인원 : 기획 (1명), 서버 (2명), 클라이언트 (2명) </br>
   개발 목표 : 실시간 매칭과 동적 게임 세션 배정을 통한 입장 구현, 아웃 게임 및 루팅, 아이템 관련 콘텐츠 제작 </br>
@@ -54,7 +54,7 @@
   - 인 게임
     - [인벤토리](https://github.com/sulbos-GP/GunShooterOnline/blob/main/GSO_WebServer/README.md#인벤토리) : 그리드 방식의 인벤토리
 
-  ## Dark Crown : Return of the Lich (논 타겟팅 액션 MMORPG)
+  # Dark Crown : Return of the Lich (논 타겟팅 액션 MMORPG)
   개발 기간 : 2023.01 ~ 2023.11 (10 개월) </br>
   개발 인원 : 서버 (1명), 클라이언트 (1명) </br>
   개발 목표 : IOCP + ADO를 이용한 I/O처리 서버 프레임워크 구현, 논 타겟팅 액션을 위한 시스템 및 MMORPG 콘텐츠 제작 </br>
