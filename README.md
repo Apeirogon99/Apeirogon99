@@ -26,8 +26,8 @@
 
   <div align="center"> <h1> 📁 프로젝트 </h1> </div>
   
-1. [Survival Horizon (2D 익스트렉션 슈터)](#Survival-Horizon-(2D-익스트렉션-슈터)) - 2024.07 ~ 2025.01 (6개월)  </br>
-2. [Dark Crown : Return of the Lich (논 타겟팅 액션 MMORPG)](#Dark-Crown-:-Return-of-the-Lich-(논-타겟팅-액션-MMORPG)) - 2023.01 ~ 2023.11 (10 개월)  </br>
+1. [Survival Horizon (2D 익스트렉션 슈터)](#survival-horizon-2d-익스트렉션-슈터) - 2024.07 ~ 2025.01 (6개월)  </br>
+2. [Dark Crown : Return of the Lich (논 타겟팅 액션 MMORPG)](#Dark-Crown-:-Return-of-the-Lich-논-타겟팅-액션-MMORPG) - 2023.01 ~ 2023.11 (10 개월)  </br>
   
  # Survival Horizon (2D 익스트렉션 슈터)
   개발 기간 : 2024.07 ~ 2025.01 (6개월) </br>
