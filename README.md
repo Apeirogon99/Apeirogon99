@@ -40,7 +40,7 @@
              [[개발 일기]](https://apeirogon99.tistory.com/category/%5BSurvival%20Horizion%5D) </br>
   결과 영상 : (아래 영상을 클릭하면 유튜브에서 재생됩니다) </br>
   [![Video Label](http://img.youtube.com/vi/444oGjuMZwc/0.jpg)](https://youtu.be/444oGjuMZwc)
-  ### 구현 요약 : </br>
+  ### 기능 개요요 : </br>
   #### System
   - [게임 서버 사이클](https://github.com/sulbos-GP/GunShooterOnline/tree/main/GSO_WebServer/README.md#게임-서버-사이클) : 실시간 매칭과 동적 게임 세션 배정을 통한 게임 입장 사이클
     - [레이팅 기반 매칭 시스템](https://github.com/sulbos-GP/GunShooterOnline/tree/main/GSO_WebServer/README.md#레이팅-기반-매칭-시스템) : Redis 큐로 플레이어 대기열 관리, ASP.NET 백그라운드 서비스로 실시간 MMR 매칭 처리
@@ -68,7 +68,7 @@
              [[개발 일기]](https://apeirogon99.tistory.com/category/%5BMMORPG%5D) </br>
   결과 영상 : (아래 영상을 클릭하면 유튜브에서 재생됩니다) </br>
   [![Video Label](http://img.youtube.com/vi/V_tvPMT1-Mk/0.jpg)](https://youtu.be/V_tvPMT1-Mk)
-  ### 구현 요약 : </br>
+  ### 기능 개요 : </br>
   #### System
   - [서버 처리 과정](https://github.com/Apeirogon99/ApeirogonServerEngine/blob/master/README.md#서버-처리-과정) : 네트워크 + 메인 로직 + 데이터베이스를 처리하는 서버 처리 과정
     - [메인로직 처리](https://github.com/Apeirogon99/ApeirogonServerEngine/blob/master/README.md#메인로직-처리) : 네트워크/DB 큐 처리, 월드 상태 업데이트
