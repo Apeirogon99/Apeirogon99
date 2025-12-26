@@ -1,6 +1,8 @@
 
 <h1>About</h1>
 
+<p><b>Backend Developer</b> | 대용량 트래픽과 시스템 설계에 관심이 많습니다</p>
+
 <img src="https://github.com/user-attachments/assets/fdec3d6b-d9da-43d1-a2e3-a60c60eb3dae" width="200" alt="Apeirogon" />
 
 <h3>Apeirogon</h3>
@@ -8,6 +10,10 @@
 > 무한한 변을 가진 다각형은 원에 수렴합니다.<br>
 > 완벽함에 도달할 수는 없지만, 가까워질 수는 있다고 믿습니다.<br>
 > 매일의 노력이 하나의 변이 되어, 더 나은 개발자가 되고자 노력하고 있습니다.
+
+<h2>Contact</h2>
+
+<a href="mailto:your@email.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"></a> <a href="https://apeirogon99.tistory.com"><img src="https://img.shields.io/badge/Blog-FF5722?style=for-the-badge&logo=tistory&logoColor=white"></a>
   
 <h2>Tech Stack</h2>
 
@@ -132,5 +138,3 @@
 
 <a href="https://github.com/Apeirogon99/ApeirogonServerEngine">Server Engine</a> · <a href="https://github.com/Apeirogon99/Project_LD_Server">Content Server</a> · <a href="https://youtu.be/V_tvPMT1-Mk">Demo</a> <br>
 <a href="https://github.com/Apeirogon99/CollisionDetection">충돌(Array, QuadTree, KD-Tree) 감지 비교</a> · <a href="https://github.com/Apeirogon99/MovementSync">이동 동기화 개선</a> · <a href="https://github.com/Apeirogon99/AreaOfInterest">2중 가시거리</a>
-
-</details>
