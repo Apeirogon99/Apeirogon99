@@ -41,19 +41,15 @@
 
 **Fathom** - 매주 각자 관심 기술을 깊이 파고들어 공유하는 스터디 기록
 
-| 일자 | 제목 | 토픽 | 링크 |
-|:---:|:---:|:---:|:---:|
-| 2025-12-16 | 가상 메모리 | operating system | <a href="https://github.com/Edurican/Fathom">링크</a> |
-| 2025-12-23 | 실행 계획 | database | <a href="https://github.com/Edurican/Fathom">링크</a> |
-| 2025-12-30 | 옵티마이저 | database | <a href="https://github.com/Edurican/Fathom">링크</a> |
+| 일자 | 제목 | 토픽 | 슬라이드 | 정리 |
+|:---:|:---:|:---:|:---:|:---:|
+| 2025-12-16 | 가상 메모리 | operating system | <a href="https://github.com/Edurican/Fathom">슬라이드</a> | <a href="https://github.com/Edurican/Fathom">정리</a> |
+| 2025-12-23 | 실행 계획 | database | <a href="https://github.com/Edurican/Fathom">슬라이드</a> | <a href="https://github.com/Edurican/Fathom">정리</a> |
+| 2025-12-30 | 교착 상태 | database | <a href="https://github.com/Edurican/Fathom">슬라이드</a> | <a href="https://github.com/Edurican/Fathom">정리</a> |
 
 <a href="https://github.com/Edurican/Fathom">저장소(깃허브)</a>
 
-<h2>Projects</h2>
-
-<h3>Backend Development Projects</h3>
-
-<br>
+<h2>Projects - Backend Development</h2>
 
 **CouponRush** - 선착순 쿠폰 발급 시스템
 
@@ -101,15 +97,13 @@
 
 ---
 
-<h3>Game Development Projects</h3>
-
-<br>
+<h2>Projects - Game Development</h2>
 
 **Survival Horizon** - 2D 익스트랙션 슈터
 
 | 기간 | 인원 | 기술 스택 |
 |:---:|:---:|:---:|
-| 2024.07 ~ 2025.01 | 5인 (기획 1 · 서버 2 · 클라이언트 2) | C#, .NET, MySQL, Redis, Docker |
+| 2024.07 ~ 2025.01 (6개월) | 5인 (기획 1 · 서버 2 · 클라이언트 2) | C#, .NET, MySQL, Redis, Docker |
 
 > 실시간 매칭 및 동적 게임 세션 관리 서버 개발
 
@@ -120,11 +114,11 @@
 
 ---
 
-**Dark Crown : Return of the Lich** - 논타겟팅 액션 MMORPG (2023.01 ~ 2023.11)
+**Dark Crown : Return of the Lich** - 논타겟팅 액션 MMORPG
 
 | 기간 | 인원 | 기술 스택 |
 |:---:|:---:|:---:|
-| 2023.01 ~ 2023.11 | 2인 (서버 1 · 클라이언트 1) | C++, MS-SQL, Unreal Engine 4 |
+| 2023.01 ~ 2023.11 (10개월) | 2인 (서버 1 · 클라이언트 1) | C++, MS-SQL, Unreal Engine 4 |
 
 > IOCP 기반 게임 서버 엔진 및 실시간 동기화 시스템 개발
 
