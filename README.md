@@ -37,6 +37,18 @@
 
 <img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=white"> <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white"> <img src="https://img.shields.io/badge/C%23-512BD4?style=for-the-badge&logo=csharp&logoColor=white"> <img src="https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white"> <img src="https://img.shields.io/badge/Unity-000000?style=for-the-badge&logo=unity&logoColor=white"> <img src="https://img.shields.io/badge/Unreal Engine-0E1128?style=for-the-badge&logo=unrealengine&logoColor=white">
 
+<h2>Studys</h2>
+
+**Fathom** - 매주 각자 관심 기술을 깊이 파고들어 공유하는 스터디 기록
+
+| 일자 | 제목 | 토픽 | 링크 |
+|:---:|:---:|:---:|:---:|
+| 2025-12-16 | 가상 메모리 | operating system | <a href="https://github.com/Edurican/Fathom">링크</a> |
+| 2025-12-23 | 실행 계획 | database | <a href="https://github.com/Edurican/Fathom">링크</a> |
+| 2025-12-30 | 옵티마이저 | database | <a href="https://github.com/Edurican/Fathom">링크</a> |
+
+<a href="https://github.com/Edurican/Fathom">저장소(깃허브)</a>
+
 <h2>Projects</h2>
 
 <h3>Backend Development Projects</h3>
@@ -54,7 +66,7 @@
 - DB Lock → Redis → Kafka 순차적 스케일링
 - K6 부하 테스트를 통한 성능 측정
 
-<a href="#">Repository</a>
+<a href="#">저장소(깃허브)</a> · <a href="#">정리(블로그)</a>
 
 ---
 
@@ -70,7 +82,7 @@
 - 기록큐 기반 대기 시간 예측
 - SSE를 통한 실시간 상태 전송
 
-<a href="#">Repository</a>
+<a href="#">저장소(깃허브)</a> · <a href="#">정리(블로그)</a>
 
 ---
 
@@ -85,7 +97,7 @@
 - 피드 조회, 무한 커서
 - 팔로우/팔로잉, 검색 기능
 
-<a href="#">Repository</a>
+<a href="https://github.com/Edurican/Flint">저장소(깃허브)</a> · <a href="#">정리(블로그)</a>
 
 ---
 
