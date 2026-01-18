@@ -51,11 +51,11 @@
 
 <h2>Projects - Backend Development</h2>
 
-**CouponRush** - 선착순 쿠폰 발급 시스템
+**PRJ** - 병원 예약 및 일정관리 시스템
 
 | 기간 | 인원 | 기술 스택 |
 |:---:|:---:|:---:|
-| 진행중 | 개인 | Spring Boot, MySQL, Redis, Kafka |
+| 진행중 | 개인 | Spring Boot, MySQL |
 
 > 대용량 트래픽 처리를 위한 단계적 아키텍처 확장
 
