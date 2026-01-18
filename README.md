@@ -127,4 +127,6 @@
 - 데드레커닝 기반 이동 동기화 최적화
 
 <a href="https://github.com/Apeirogon99/ApeirogonServerEngine">Server Engine</a> · <a href="https://github.com/Apeirogon99/Project_LD_Server">Content Server</a> · <a href="https://youtu.be/V_tvPMT1-Mk">Demo</a> <br>
-<a href="https://github.com/Apeirogon99/CollisionDetection">충돌(Array, QuadTree, KD-Tree) 감지 비교</a> · <a href="https://github.com/Apeirogon99/MovementSync">이동 동기화 개선</a> · <a href="https://github.com/Apeirogon99/AreaOfInterest">2중 가시거리</a>
+<a href="https://github.com/Apeirogon99/CollisionDetection">충돌(Array, QuadTree, KD-Tree) 감지 비교 - 객체와 상황에 따른 가장 효율적인 충돌 감지 방식 고찰 </a> <br>
+<a href="https://github.com/Apeirogon99/MovementSync">이동 동기화 개선 - 순간 요청량은 늘지만 정확성을 높이기 위한 방법 연구 </a> <br>
+<a href="https://github.com/Apeirogon99/AreaOfInterest">2중 가시거리 - 2중 가시거리를 통해 트래픽량을 줄이고 사용자 경험 높이기 위한 연구</a> <br>
