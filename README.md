@@ -95,7 +95,7 @@
 - `%keyword%` → `keyword%` 전환으로 인덱스 활용 검색 최적화
 - 커서 기반 페이지네이션으로 무한 스크롤 구현
 
-<a href="https://github.com/Edurican/Flint">깃허브 + 정리</a>
+<a href="https://github.com/Apeirogon99/Flint">깃허브 + 정리</a>
 
 ---
 
