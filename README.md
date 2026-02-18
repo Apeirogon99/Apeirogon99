@@ -37,111 +37,97 @@
 
 <img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=white"> <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white"> <img src="https://img.shields.io/badge/C%23-512BD4?style=for-the-badge&logo=csharp&logoColor=white"> <img src="https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white"> <img src="https://img.shields.io/badge/Unity-000000?style=for-the-badge&logo=unity&logoColor=white"> <img src="https://img.shields.io/badge/Unreal Engine-0E1128?style=for-the-badge&logo=unrealengine&logoColor=white">
 
-<h2>Studys</h2>
-
-**Fathom** - 매주 각자 관심 기술을 깊이 파고들어 공유하는 스터디 기록
-
-| 일자 | 제목 | 토픽 | 슬라이드 | 정리 |
-|:---:|:---:|:---:|:---:|:---:|
-| 2025-12-16 | 가상 메모리 | operating system | <a href="https://github.com/Edurican/Fathom">슬라이드</a> | <a href="https://github.com/Edurican/Fathom">정리</a> |
-| 2025-12-23 | 실행 계획 | database | <a href="https://github.com/Edurican/Fathom">슬라이드</a> | <a href="https://github.com/Edurican/Fathom">정리</a> |
-| 2025-12-30 | 교착 상태 | database | <a href="https://github.com/Edurican/Fathom">슬라이드</a> | <a href="https://github.com/Edurican/Fathom">정리</a> |
-
-<a href="https://github.com/Edurican/Fathom">저장소(깃허브)</a>
-
 <h2>Projects - Backend Development</h2>
 
-**PRJ** - 병원 예약 및 일정관리 시스템
-
+**FoodFinder** - 맛집 추천 서비스
 | 기간 | 인원 | 기술 스택 |
 |:---:|:---:|:---:|
-| 진행중 | 개인 | Spring Boot, MySQL |
+| 2주 | 5인 (백엔드) | Spring Boot, JPA, Redis, MySQL |
 
-> 대용량 트래픽 처리를 위한 단계적 아키텍처 확장
+> 쿼드트리 재귀 탐색 + Redis 그리드 캐싱으로 외부 API 호출 96% 감소, 응답속도 98% 개선
 
-- DB Lock → Redis → Kafka 순차적 스케일링
-- K6 부하 테스트를 통한 성능 측정
+- 공공데이터 API 의존을 쿼드트리 기반 공간 검색으로 전환
+- 위치 좌표를 그리드 키로 변환하여 Redis 캐시 적중률 극대화
+- Dark Crown의 공간 분할 경험(KD-Tree/QuadTree 비교)이 설계 근거
 
-<a href="#">저장소(깃허브)</a> · <a href="#">정리(블로그)</a>
+<a href="https://github.com/Apeirogon99/FoodFinder">깃허브 + 정리</a>
+
+---
+
+**TimeDeal** - 대기열 관리 시스템
+| 기간 | 인원 | 기술 스택 |
+|:---:|:---:|:---:|
+| 2주 | 5인 (백엔드) | Spring Boot, Spring Cloud, Redis, MariaDB |
+
+> 서버 증설 없이 동시 구매 실패를 0건으로 만든 Redis 2단계 큐 유입 제어
+
+- 대기열 → 통과열 구조로 DB 동시 접근을 100명 이하로 제한 (CouponRush 측정값 기반)
+- Sorted Set score를 만료 타임스탬프로 활용한 O(log N) TTL 만료 처리
+- SSE 기반 순번·예상 대기시간 실시간 전송
+
+<a href="https://github.com/Apeirogon99/TimeDeal">깃허브 + 정리</a>
 
 ---
 
 **CouponRush** - 선착순 쿠폰 발급 시스템
-
 | 기간 | 인원 | 기술 스택 |
 |:---:|:---:|:---:|
 | 진행중 | 개인 | Spring Boot, MySQL, Redis, Kafka |
 
-> 대용량 트래픽 처리를 위한 단계적 아키텍처 확장
+> DB 비관적 락(147 req/s)에서 시작해 Kafka 비동기 처리로 성공 응답 시간을 5.4s → 559ms로 개선하기까지의 과정
 
-- DB Lock → Redis → Kafka 순차적 스케일링
-- K6 부하 테스트를 통한 성능 측정
+- DB Lock → Redis 분산락 → Kafka 순차적 아키텍처 확장과 각 단계의 병목 분석
+- 분산 환경에서의 보상 처리 설계와 한계 정리
+- K6 부하 테스트(동시 3,000명)를 통한 시나리오별 정량 비교
 
-<a href="#">저장소(깃허브)</a> · <a href="#">정리(블로그)</a>
-
----
-
-**Timedeal** - 대기열 관리 시스템
-
-| 기간 | 인원 | 기술 스택 |
-|:---:|:---:|:---:|
-| 2주 | 5인 (백엔드) | Spring Boot, Redis |
-
-> 안정적인 트래픽 제어를 위한 3단계 큐 아키텍처
-
-- 대기열 → 진행큐 구조로 처리량 제한
-- 기록큐 기반 대기 시간 예측
-- SSE를 통한 실시간 상태 전송
-
-<a href="#">저장소(깃허브)</a> · <a href="#">정리(블로그)</a>
+<a href="https://github.com/Apeirogon99/CouponRush">깃허브 + 정리</a>
 
 ---
 
 **Flint** - 소셜 미디어 플랫폼
-
 | 기간 | 인원 | 기술 스택 |
 |:---:|:---:|:---:|
-| 1개월 | 4인 (백엔드) | Spring Boot, JPA, Vue.js, MariaDB |
+| 1개월 | 4인 (백엔드) | Spring Boot, JPA, QueryDSL, Vue.js, MariaDB |
 
-> Spring Boot + Vue.js 기반 풀스택 SNS 서비스
+> 상호 팔로우 시 발생하는 데드락을 락 순서 고정으로 원천 차단하고, LIKE 검색 성능 30% 개선
 
-- 피드 조회, 무한 커서
-- 팔로우/팔로잉, 검색 기능
+- 양방향 팔로우의 순환 대기를 `Math.min/max` 락 순서 고정으로 해결
+- `%keyword%` → `keyword%` 전환으로 인덱스 활용 검색 최적화
+- 커서 기반 페이지네이션으로 무한 스크롤 구현
 
-<a href="https://github.com/Edurican/Flint">저장소(깃허브)</a> · <a href="#">정리(블로그)</a>
+<a href="https://github.com/Edurican/Flint">깃허브 + 정리</a>
 
 ---
 
 <h2>Projects - Game Development</h2>
 
 **Survival Horizon** - 2D 익스트랙션 슈터
-
 | 기간 | 인원 | 기술 스택 |
 |:---:|:---:|:---:|
 | 2024.07 ~ 2025.01 (6개월) | 5인 (기획 1 · 서버 2 · 클라이언트 2) | C#, .NET, MySQL, Redis, Docker |
 
-> 실시간 매칭 및 동적 게임 세션 관리 서버 개발
+> Redis Sorted Set 매칭 큐와 Docker 컨테이너 상태 머신으로 멀티플레이어 라이프사이클 구현
 
-- Redis 기반 MMR 매칭 시스템
-- Docker 컨테이너 동적 생성/관리를 통한 게임 세션 배정
+- MMR 기반 범위 매칭 + 대기 시간에 따른 허용 범위 점진 확장
+- 컨테이너 준비 전 접속 버그를 상태 단계 분리(초기화 → 세팅 → 대기 → 할당)로 해결
+- 이 프로젝트의 Redis 큐 경험이 이후 TimeDeal 대기열 설계로 이어짐
 
 <a href="https://github.com/sulbos-GP/GunShooterOnline/tree/main/GSO_WebServer">Server</a> · <a href="https://github.com/Apeirogon99/SchemaStructor">DB Tool</a> · <a href="https://youtu.be/444oGjuMZwc">Demo</a>
 
 ---
 
 **Dark Crown : Return of the Lich** - 논타겟팅 액션 MMORPG
-
 | 기간 | 인원 | 기술 스택 |
 |:---:|:---:|:---:|
 | 2023.01 ~ 2023.11 (10개월) | 2인 (서버 1 · 클라이언트 1) | C++, MS-SQL, Unreal Engine 4 |
 
-> IOCP 기반 게임 서버 엔진 및 실시간 동기화 시스템 개발
+> IOCP 기반 서버 프레임워크를 직접 설계하고, 공간 분할·동기화 최적화로 실시간 전투 구현
 
-- IOCP + ADO를 활용한 고성능 I/O 서버 프레임워크
-- KD-Tree 기반 충돌 감지 시스템
-- 데드레커닝 기반 이동 동기화 최적화
+- I/O 멀티스레드 + 로직 싱글스레드 구조의 서버 엔진 직접 구현 (Java NIO, epoll과 동일 모델)
+- KD-Tree / QuadTree / Array 충돌 감지 성능 비교 → 이후 FoodFinder 쿼드트리 적용의 배경
+- Dead Reckoning 동적 주기 조절로 위치 오차 27% 감소, 이중 가시영역으로 트래픽 62% 절감
 
 <a href="https://github.com/Apeirogon99/ApeirogonServerEngine">Server Engine</a> · <a href="https://github.com/Apeirogon99/Project_LD_Server">Content Server</a> · <a href="https://youtu.be/V_tvPMT1-Mk">Demo</a> <br>
-<a href="https://github.com/Apeirogon99/CollisionDetection">충돌(Array, QuadTree, KD-Tree) 감지 비교 - 객체와 상황에 따른 가장 효율적인 충돌 감지 방식 고찰 </a> <br>
-<a href="https://github.com/Apeirogon99/MovementSync">이동 동기화 개선 - 순간 요청량은 늘지만 정확성을 높이기 위한 방법 연구 </a> <br>
-<a href="https://github.com/Apeirogon99/AreaOfInterest">2중 가시거리 - 2중 가시거리를 통해 트래픽량을 줄이고 사용자 경험 높이기 위한 연구</a> <br>
+<a href="https://github.com/Apeirogon99/CollisionDetection">충돌 감지 비교 - 객체와 상황에 따른 효율적인 공간 분할 전략 고찰</a> <br>
+<a href="https://github.com/Apeirogon99/MovementSync">이동 동기화 개선 - 순간 전송량 57%↑ 대비 위치 오차 27%↓ 트레이드오프 연구</a> <br>
+<a href="https://github.com/Apeirogon99/AreaOfInterest">이중 가시영역 - 동기화 품질 유지하면서 트래픽 62% 절감</a>
