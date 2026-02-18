@@ -46,9 +46,8 @@
 
 > 쿼드트리 재귀 탐색 + Redis 그리드 캐싱으로 외부 API 호출 96% 감소, 응답속도 98% 개선
 
-- 공공데이터 API 의존을 쿼드트리 기반 공간 검색으로 전환
+- 카카오맵 API 검색 제한을 쿼드트리 기반 공간 검색 가능하게 변경
 - 위치 좌표를 그리드 키로 변환하여 Redis 캐시 적중률 극대화
-- Dark Crown의 공간 분할 경험(KD-Tree/QuadTree 비교)이 설계 근거
 
 <a href="https://github.com/Apeirogon99/FoodFinder">깃허브 + 정리</a>
 
@@ -110,7 +109,6 @@
 
 - MMR 기반 범위 매칭 + 대기 시간에 따른 허용 범위 점진 확장
 - 컨테이너 준비 전 접속 버그를 상태 단계 분리(초기화 → 세팅 → 대기 → 할당)로 해결
-- 이 프로젝트의 Redis 큐 경험이 이후 TimeDeal 대기열 설계로 이어짐
 
 <a href="https://github.com/sulbos-GP/GunShooterOnline/tree/main/GSO_WebServer">Server</a> · <a href="https://github.com/Apeirogon99/SchemaStructor">DB Tool</a> · <a href="https://youtu.be/444oGjuMZwc">Demo</a>
 
